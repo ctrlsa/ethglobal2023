@@ -1,4 +1,7 @@
-# ETHGlobal Istanbul Hackathon
+# FileDrop
+**A fully decentralized permanent storage on Filecoin for Telegram**
+
+`ETHGlobal Istanbul Hackathon Project`
 
 ## Developing
 
@@ -21,5 +24,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
