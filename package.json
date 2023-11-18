@@ -1,5 +1,5 @@
 {
-	"name": "fropbox",
+	"name": "filedrop",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -12,7 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-static": "^2.0.3",
 		"@sveltejs/kit": "^1.27.4",
 		"autoprefixer": "^10.4.16",
 		"daisyui": "^4.4.2",
