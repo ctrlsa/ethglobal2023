@@ -21,7 +21,7 @@ export default {
       "business",
       {
         default: {
-          primary: "#1c4f82",
+          primary: "#0090ff",
           secondary: "#ffffff",
           accent: "#eb6b47",
           neutral: "#23282f",
