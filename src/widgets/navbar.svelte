@@ -15,8 +15,6 @@
     </div>
   </div>
   <div class="navbar-end group">
-    <Button class="btn btn-circle btn-md">
-      <Plus class="h-7 w-7" />
-    </Button>
+    <slot/>
   </div>
 </nav>
