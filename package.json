@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@twa-dev/sdk": "^6.9.1",
 		"lucide-svelte": "^0.292.0",
 		"svelte-french-toast": "^1.2.0",
 		"svelte-persisted-store": "^0.7.0"

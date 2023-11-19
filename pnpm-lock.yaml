@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@twa-dev/sdk':
+    specifier: ^6.9.1
+    version: 6.9.1(react@18.2.0)
   lucide-svelte:
     specifier: ^0.292.0
     version: 0.292.0(svelte@4.2.5)
@@ -474,6 +477,19 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@twa-dev/sdk@6.9.1(react@18.2.0):
+    resolution: {integrity: sha512-R+3a/IRG97NFHS1PF+rj/F2n+cwsHtW1LWGVP0pzIzMK709oMy00qJPV0wxbS16hzcvcW9hPVNwHYTPMv4rrEQ==}
+    peerDependencies:
+      react: '>=16.0.0'
+    dependencies:
+      '@twa-dev/types': 6.9.0
+      react: 18.2.0
+    dev: false
+
+  /@twa-dev/types@6.9.0:
+    resolution: {integrity: sha512-hBkIuJgVtkLAPPhKsNfgyBpgS+15spzUScy5jgpfPJPqXPaaUVDTaWHbeEUU+lUgHmryeQjWyz+UjS7987Pyaw==}
+    dev: false
 
   /@types/cookie@0.5.4:
     resolution: {integrity: sha512-7z/eR6O859gyWIAjuvBWFzNURmf2oPBmJlfVWkwehU5nzIyjwBsTh7WMmEEV4JFnHuQ3ex4oyTvfKzcyJVDBNA==}
@@ -1668,6 +1684,10 @@ packages:
     hasBin: true
     dev: true
 
+  /js-tokens@4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: false
+
   /js-yaml@4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
@@ -1739,6 +1759,13 @@ packages:
   /lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
+
+  /loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
 
   /lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
@@ -2182,6 +2209,13 @@ packages:
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
+
+  /react@18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
 
   /read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
